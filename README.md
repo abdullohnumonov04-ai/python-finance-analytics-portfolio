@@ -84,3 +84,18 @@ current run.
 
 See `PORTFOLIO_RESULTS.md` for the numerical findings currently produced in
 this workspace and the corresponding CV-ready wording.
+
+## Run the interactive Streamlit dashboard
+
+Install the dashboard dependency from `requirements.txt`, then from the project root run:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+The browser should open at `http://localhost:8501`. Use the left-hand project selector to view
+Home, Company Ratio Analysis, Stock Risk & Return, DCF Valuation, and Financial Forecasting.
+
+The dashboard renders tables and charts directly from the real project data/calculations. It does
+not rely on pre-generated PNG files being present. Project 2 remains real-data-only and will show an
+explicit error if neither a real cached daily-price CSV nor Yahoo Finance data is available.

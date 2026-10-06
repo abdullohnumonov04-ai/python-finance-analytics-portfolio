@@ -3,3 +3,4 @@ pandas>=2.2
 matplotlib>=3.8
 statsmodels>=0.14
 yfinance>=0.2.40
+streamlit>=1.40
