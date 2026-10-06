@@ -1,0 +1,5 @@
+,RMSE,MAPE %
+Naive,23254.65,2.38
+Seasonal naive,33433.37,4.26
+Trend + season regression,21411.8,2.73
+Holt-Winters,7248.97,0.79
